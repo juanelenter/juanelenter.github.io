@@ -1,5 +1,11 @@
 experiences:
 
+- place: "Spotify"
+  time: "2024-Present"
+  title: "Research Scientist"
+  subtitle: "Personalization - Large Scale Generative Recommendaton"
+  category: "work"
+
 - place: "Flatiron Institute, Simons Foundation"
   time: "2022"
   title: "Summer Intern"
@@ -7,13 +13,13 @@ experiences:
   category: "work"
 
 - place: "University of Pennsylvania"
-  time: "Fall 2021 - now"
-  title: "Ph.D. Candidate"
-  subtitle: "Optimization theory, Signal Processing, Machine Learning"
+  time: "2021-2024"
+  title: "The Wharton School & SEAS"
+  subtitle: "MA in Statistics and Data Science <br>MEng in Electrical and Systems Engineering"
   category: "school"
 
 - place: "Stanford University"
-  time: "Spring 2021"
+  time: "2021"
   title: "Visiting Student at KundajeLab"
   subtitle: "ATAC-seq analysis, motif discovery"
   category: "school"
@@ -21,19 +27,14 @@ experiences:
 - place: "CERN"
   time: "2020"
   title: "Intern"
-  subtitle: "Compact Muon Solenoid Experiment"
+  subtitle: "CMS Open Data initiative"
   category: "work"
 
 - place: "IBM"
-  time: "2018-2019"
+  time: "2019"
   title: "Full Stack Developer"
   category: "work"
 
-- place: "ProteanTecs"
-  time: "Summer 2019"
-  title: "Signal Processing Intern"
-  subtitle: "Chip Predictive Maintenance"
-  category: "work"
 
 - place: "Universidad de la República"
   time: "2016-2021"
