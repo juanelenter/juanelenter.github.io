@@ -33,7 +33,7 @@ papers:
     first: y
     
   - title: "Feasible Learning"
-    authors: "J. Ramirez, I. Hounie, J. Elenter, J. Gallego, S. L. Julien, A. Ribeiro"
+    authors: "J. Ramirez * , I. Hounie * , J. Elenter *, J. Gallego *, A. Ribeiro,  S. L. Julien"
     venue: "Under Review"
     paper_pdf: "Soon"
     theory: n
