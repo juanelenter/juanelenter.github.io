@@ -26,7 +26,7 @@ misc:
     selected: y
 
   - title: " "
-    subtitle: "In 2013, while playing for Uruguay's U-17 national team I lost 3-23 to the US."
+    subtitle: "Signed up for water polo. Still no idea where the horses go."
     thumbnail: "assets/misc/polo.jpeg"
     url: "https://es.wikipedia.org/wiki/Campeonato_Panamericano_Sub-17_de_Waterpolo_de_2013"
     selected: y
@@ -38,7 +38,7 @@ misc:
     selected: n
 
   - title: "The uruguayan"
-    subtitle: "We're kind of chill, obsessed with soccer, skeptical of authority and fixated on social welfare."
+    subtitle: "Kind of chill and obsessed with soccer."
     thumbnail: "assets/misc/cultura.jpeg"
     selected: n
     url: "https://www.youtube.com/watch?v=OPxXfr5PSWY"
@@ -65,6 +65,8 @@ misc:
     thumbnail: "assets/misc/murga.jpeg"
     selected: n
     url: "https://www.youtube.com/watch?v=6z9uqATrqaw&ab_channel=MURGAS"
+
+  
   
 
 

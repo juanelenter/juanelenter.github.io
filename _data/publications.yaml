@@ -7,9 +7,9 @@ papers:
     empirical: n
     philosphical: n
 
-  - title: "ICL-TSVD: Bridging Theory and Practice in Continual Learning with Pre-trained Models"
+  - title: "LoRanPAC: Low-rank Random Features and Pre-trained Models for Continual Learning"
     authors: "Liangzu Peng, Juan Elenter, Joshua Agterberg, Alejandro Ribeiro, René Vidal"
-    venue: "International Conference on Learning Representations (ICLR), 2025"
+    venue: "Under Review"
     paper_pdf: "https://arxiv.org/abs/2410.00645"
     theory: n
     empirical: y
@@ -34,8 +34,8 @@ papers:
     
   - title: "Feasible Learning"
     authors: "J. Ramirez * , I. Hounie * , J. Elenter *, J. Gallego *, A. Ribeiro,  S. L. Julien"
-    venue: "International Conference on Artificial Intelligence and Statistics (AISTATS), 2025"
-    paper_pdf: "https://arxiv.org/abs/2501.14912"
+    venue: "Under Review"
+    paper_pdf: "Soon"
     theory: n
     empirical: n
     philosophical: y
