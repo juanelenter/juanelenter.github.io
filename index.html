@@ -12,7 +12,7 @@ title: Home
     Before graduate school, I worked on genomic motif discovery through ATAC-seq analysis  <img src="dnacon.png" alt="" style="width: 24px; height: 24px; vertical-align: middle;"> at <b>Stanford</b>'s KundajeLab. I also interned at <b>CERN</b> <img src="cerncon.png" alt="" style="width: 24px; height: 24px; vertical-align: middle;">, contributing to the CMS Open Data initiative alongside Dr. Lassila-Perini.
     </p>
     <p>
-      Originally from the beautiful city of Montevideo, Uruguay <img src="urucon.png" alt="" style="width: 20px; height: 20px; vertical-align: top;">, I studied at <b>Universidad de la República</b>. During this time, I played for Uruguay's national <b>Waterpolo</b> <img src="poloicon.png" alt="" style="width: 24px; height: 20px; vertical-align: top;"> team and worked as a software developer at <b>IBM</b>. If any of this sounds interesting, or if you want share some mate <img src="mateicon.png" alt="" style="width: 24px; height: 24px; vertical-align: top;"> , feel free to reach out.
+      Originally from the beautiful city of Montevideo, Uruguay <img src="urucon.png" alt="" style="width: 20px; height: 20px; vertical-align: top;">, I studied at <b>Universidad de la República</b>. During this time, I played for Uruguay's national <b>Waterpolo</b> <img src="poloicon.png" alt="" style="width: 24px; height: 20px; vertical-align: top;"> team and worked as a software developer at <b>IBM</b>. If any of this sounds interesting, or if you want to share some mate <img src="mateicon.png" alt="" style="width: 24px; height: 24px; vertical-align: top;"> , feel free to reach out.
     </p>
   
 </div>
@@ -232,32 +232,6 @@ function showTab(event, tabId, sectionId) {
 
 
 
-<!-- ========== RESUME ========== -->
-<div class="docs-section" id="resume">
-  <h4>Vitæ</h4>
-
-  <!--<p>Full resume  <a href=https://drive.google.com/file/d/1hteKSw63oyHDcA-HxjDQXUETX8yTp7Sj/view?usp=sharing target="_blank">here</a>.</p>-->
-
-  <!-- The Timeline -->
-  <ul class="timeline">
-    {% for exp in site.data.experience.experiences %}
-    <li>
-      {% if exp.category == "work" %}
-      <div class="direction-l">
-      {% else %}
-      <div class="direction-r">
-      {% endif %}
-        <div class="flag-wrapper">
-          <span class="flag">{{ exp.place }}</span>
-          <span class="time-wrapper"><span class="time">{{ exp.time }}</span></span>
-        </div>
-        <div class="desc"><b>{{ exp.title }}</b> <br/> {{ exp.subtitle }}</div>
-      </div>
-    </li>
-    {% endfor %}
-  </ul>
-</div>
-
 <!-- ========== MISC ========== -->
 <div class="docs-section" id="misc">
   <h4>Miscelaneous</h4>
@@ -374,6 +348,31 @@ function showTab(event, tabId, sectionId) {
 
 </div>
 
+<!-- ========== RESUME ========== -->
+<div class="docs-section" id="resume">
+  <h4>Vitæ</h4>
+
+  <!--<p>Full resume  <a href=https://drive.google.com/file/d/1hteKSw63oyHDcA-HxjDQXUETX8yTp7Sj/view?usp=sharing target="_blank">here</a>.</p>-->
+
+  <!-- The Timeline -->
+  <ul class="timeline">
+    {% for exp in site.data.experience.experiences %}
+    <li>
+      {% if exp.category == "work" %}
+      <div class="direction-l">
+      {% else %}
+      <div class="direction-r">
+      {% endif %}
+        <div class="flag-wrapper">
+          <span class="flag">{{ exp.place }}</span>
+          <span class="time-wrapper"><span class="time">{{ exp.time }}</span></span>
+        </div>
+        <div class="desc"><b>{{ exp.title }}</b> <br/> {{ exp.subtitle }}</div>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
 
 <div class="docs-section" id="template">
     The blueprint for this website can be found in this <a href="https://github.com/msaveski/www_personal" target="_blank">GitHub repo</a>.
