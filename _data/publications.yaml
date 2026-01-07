@@ -35,7 +35,7 @@ papers:
   - title: "Feasible Learning"
     authors: "J. Ramirez * , I. Hounie * , J. Elenter *, J. Gallego *, A. Ribeiro,  S. L. Julien"
     venue: "AISTATS, 2025"
-    paper_pdf: "Soon"
+    paper_pdf: "https://arxiv.org/abs/2501.14912"
     theory: n
     empirical: n
     philosophical: y
