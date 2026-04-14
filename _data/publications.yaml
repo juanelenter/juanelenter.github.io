@@ -7,7 +7,7 @@ papers:
     empirical: n
     philosphical: n
 
-    - title: "Deploying Semantic ID-based Generative Retrieval for Large-Scale Podcast Discovery at Spotify"
+  - title: "Deploying Semantic ID-based Generative Retrieval for Large-Scale Podcast Discovery at Spotify"
     authors: "Edoardo D'Amico, ..., Juan Elenter, ..., Paul N. Bennett"
     venue: "Under Review"
     paper_pdf: "https://arxiv.org/pdf/2603.17540"
