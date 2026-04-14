@@ -6,7 +6,7 @@ title: Home
 <div class="docs-section" id="bio">
   <h4>Bio</h4>
     <p>
-      > I'm a math and music nerd currently at <b>Spotify</b> as a Research Scientist, working on large-scale recommendation systems and generative sequential modeling. I earned an MA in Statistics from <b>The Wharton School</b> and an MEng in Electrical and Systems Engineering from SEAS at the <b>University of Pennsylvania</b>, before deciding to leave the PhD program to join Spotify.
+      > I'm a Research Scientist at <b>Spotify</b>, working on large-scale recommendation systems, generative modeling and LLM personalization. I earned an MA in Statistics from <b>The Wharton School</b> and an MEng in Electrical and Systems Engineering from SEAS at the <b>University of Pennsylvania</b>, before deciding to leave the PhD program to join Spotify.
     </p>
     <p>
       Before graduate school, I worked on genomic motif discovery through ATAC-seq analysis
@@ -15,9 +15,9 @@ title: Home
       , contributing to the CMS Open Data initiative alongside Dr. Lassila-Perini.
     </p>
     <p>
-      Originally from the beautiful city of Montevideo, Uruguay, I studied at <b>Universidad de la República</b>. During this time, I played for Uruguay's national <b>Waterpolo</b> team and worked as a software developer at <b>IBM</b>. If any of this sounds interesting, or if you want to share some mate
+      I'm originally from the beautiful city of Montevideo, Uruguay, where I studied at <b>Universidad de la República</b>. During that time, I played for Uruguay’s national <b>water polo</b> team while also working as a software developer at <b>IBM</b>. If any of that resonates with you — or if you'd like to share some mate
       <img src="mateicon.png" alt="" style="width: 24px; height: 24px; vertical-align: top;">
-      , feel free to reach out.
+      — feel free to reach out.
     </p>
 </div>
 
@@ -38,6 +38,7 @@ title: Home
   <!-- Tab Navigation -->
   <ul class="tab-navigation">
     <li><a href="#" class="tab-link active" onclick="showTab(event, 'papers-theory', '#publications')">A Theory Paper</a></li>
+    <li><a href="#" class="tab-link" onclick="showTab(event, 'papers-industry', '#publications')">Industry Paper</a></li>
     <li><a href="#" class="tab-link" onclick="showTab(event, 'papers-empirical', '#publications')">An Empirical Paper</a></li>
     <li><a href="#" class="tab-link" onclick="showTab(event, 'papers-philo', '#publications')">A Framework Paper</a></li>
     <li><a href="#" class="tab-link" onclick="showTab(event, 'papers-first', '#publications')">My First Paper</a></li>
@@ -77,6 +78,24 @@ title: Home
       {% endfor %}
     </div>
 
+    <div class="tab-pane" id="papers-industry">
+      {% assign industry_papers = site.data.publications.papers | where: "industry", "y" %}
+      {% for paper in industry_papers %}
+        <div class="paper">
+          <p class="title"><b>{{ paper.title }}</b></p>
+          <p>{{ paper.authors }}</p>
+          <p><i>{{ paper.venue }}</i></p>
+          <div class="paper-buttons">
+            {% if paper.paper_pdf %}
+              <a class="button" href="{{ paper.paper_pdf }}" target="_blank">Paper</a>
+            {% endif %}
+            {% if paper.slides %}
+              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
     
     <div class="tab-pane" id="papers-empirical">
       {% assign empirical_papers = site.data.publications.papers | where: "empirical", "y" %}
