@@ -16,11 +16,6 @@ papers:
     philosphical: n
     industry: y
 
-  - title: "Efficient Dataset Selection for Continual Adaptation of Generative Recommenders"
-    authors: "Cathy Jiao, Juan Elenter, Praveen Ravichandran, et al."
-    venue: "ICLR CAO Workshop (Oral), 2026"
-    paper_pdf: "https://arxiv.org/abs/2604.07739"
-
   - title: "TSVD: Bridging Theory and Practice in Continual Learning with Pre-trained Models"
     authors: "Liangzu Peng, Juan Elenter, Joshua Agterberg, Alejandro Ribeiro, René Vidal"
     venue: "International Conference on Learning Representations (ICLR), 2025"
@@ -29,14 +24,11 @@ papers:
     empirical: y
     philosphical: n 
 
-  - title: "Primal Dual Continual Learning: Balancing Stability and Plasticity through Adaptive Memory Allocation"
-    authors: "<b>Juan Elenter</b>, Navid NaderiAlizadeh, Tara Javidi, Alejandro Ribeiro"
-    venue: "Preprint Under Review"
-    paper_pdf: "https://arxiv.org/abs/2310.00154"
-    theory: n
-    empirical: n
-    philosphical: n
-    
+  - title: "Efficient Dataset Selection for Continual Adaptation of Generative Recommenders"
+    authors: "Cathy Jiao, Juan Elenter, Praveen Ravichandran, et al."
+    venue: "ICLR CAO Workshop (Oral), 2026"
+    paper_pdf: "https://arxiv.org/abs/2604.07739"
+
   - title: "A Lagrangian Duality Approach to Active Learning"
     authors: "Juan Elenter, Navid NaderiAlizadeh, Alejandro Ribeiro"
     venue: "Neural Information Processing Systems (NeurIPS), 2022."
@@ -63,12 +55,3 @@ papers:
     empirical: n
     philosphical: n
     
-  - title: "Graph Neural Networks for genome enabled prediction of complex traits."
-    authors: "Juan Elenter, Ignacio Hounie, Guillermo  Etchebarne, María Inés Fariello, Federico Lecumberry"
-    venue: "Probabilistic Modeling in Genomics CSHL, 2021."
-    paper_pdf: "https://www.colibri.udelar.edu.uy/jspui/bitstream/20.500.12008/36832/1/HEEFL21.pdf"
-    theory: n
-    empirical: n
-    philosphical: n
-    
-
