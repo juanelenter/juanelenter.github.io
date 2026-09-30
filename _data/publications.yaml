@@ -1,7 +1,7 @@
 papers: 
   - title: "Near-Optimal Solutions of Constrained Learning Problems"
     authors: "Juan Elenter, Luiz Chamon, Alejandro Ribeiro"
-    venue: "International Conference on Learning Representations (ICLR), 2024"
+    venue: "International Conference on Learning Representations (<strong>ICLR</strong>), 2024"
     paper_pdf: "https://arxiv.org/abs/2403.11844"
     theory: y
     empirical: n
@@ -9,7 +9,7 @@ papers:
 
   - title: "From Habits to Discovery: Deploying LLMs for Personalized Generative Recommendations at Spotify"
     authors: "Edoardo D'Amico, ..., Juan Elenter, ..., Paul N. Bennett"
-    venue: "Knowledge Discovery and Data Mining (KDD), 2026"
+    venue: "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (<strong>KDD</strong>), 2026"
     paper_pdf: "https://research.atspotify.com/publications/from-habits-to-discovery-deploying-llms-personalized-generative-recommendations-spotify"
     theory: n
     empirical: n
@@ -18,7 +18,7 @@ papers:
 
   - title: "TSVD: Bridging Theory and Practice in Continual Learning with Pre-trained Models"
     authors: "Liangzu Peng, Juan Elenter, Joshua Agterberg, Alejandro Ribeiro, René Vidal"
-    venue: "International Conference on Learning Representations (ICLR), 2025"
+    venue: "International Conference on Learning Representations (<strong>ICLR</strong>), 2025"
     paper_pdf: "https://proceedings.iclr.cc/paper_files/paper/2025/hash/e0e0add93c95b5f81db075472c5cbbd9-Abstract-Conference.html"
     theory: n
     empirical: y
@@ -26,12 +26,12 @@ papers:
 
   - title: "Efficient Dataset Selection for Continual Adaptation of Generative Recommenders"
     authors: "Cathy Jiao, Juan Elenter, Praveen Ravichandran, et al."
-    venue: "ICLR CAO Workshop (Oral), 2026"
+    venue: "Catch, Adapt, and Operate: Monitoring ML Models Under Drift (<strong>CAO</strong>) Workshop at the International Conference on Learning Representations (<strong>ICLR</strong>), 2026 (Oral)"
     paper_pdf: "https://arxiv.org/abs/2604.07739"
 
   - title: "A Lagrangian Duality Approach to Active Learning"
     authors: "Juan Elenter, Navid NaderiAlizadeh, Alejandro Ribeiro"
-    venue: "Neural Information Processing Systems (NeurIPS), 2022."
+    venue: "Conference on Neural Information Processing Systems (<strong>NeurIPS</strong>), 2022"
     paper_pdf: "https://arxiv.org/abs/2202.04108"
     theory: n
     empirical: n
@@ -40,7 +40,7 @@ papers:
     
   - title: "Feasible Learning"
     authors: "J. Ramirez * , I. Hounie * , J. Elenter *, J. Gallego *, A. Ribeiro,  S. L. Julien"
-    venue: "AISTATS, 2025"
+    venue: "International Conference on Artificial Intelligence and Statistics (<strong>AISTATS</strong>), 2025"
     paper_pdf: "https://arxiv.org/abs/2501.14912"
     theory: n
     empirical: n
@@ -48,8 +48,8 @@ papers:
     first: n
 
   - title: "Neural Networks with Quantization Constraints."
-    authors: "Ignacio Hounie*, <b>Juan Elenter*</b>, Alejandro Ribeiro"
-    venue: "IEEE International Conference on Acoustics, Speech, and Signal Processing, 2023."
+    authors: "Ignacio Hounie*, Juan Elenter*, Alejandro Ribeiro"
+    venue: "IEEE International Conference on Acoustics, Speech, and Signal Processing (<strong>ICASSP</strong>), 2023"
     paper_pdf: "https://arxiv.org/abs/2210.15623"
     theory: n
     empirical: n
