@@ -26,7 +26,7 @@ papers:
 
   - title: "Efficient Dataset Selection for Continual Adaptation of Generative Recommenders"
     authors: "Cathy Jiao, Juan Elenter, Praveen Ravichandran, et al."
-    venue: "Catch, Adapt, and Operate: Monitoring ML Models Under Drift (<strong>CAO</strong>) Workshop at the International Conference on Learning Representations (<strong>ICLR</strong>), 2026 (Oral)"
+    venue: "CAO Workshop at <strong>ICLR</strong> 2026 (<strong>Oral</strong>)"
     paper_pdf: "https://arxiv.org/abs/2604.07739"
 
   - title: "A Lagrangian Duality Approach to Active Learning"
