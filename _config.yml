@@ -1,2 +1,4 @@
 baseurl: ""
 url: "https://juanelenter.github.io"
+exclude:
+  - _archive

@@ -7,19 +7,24 @@ papers:
     empirical: n
     philosphical: n
 
-  - title: "Deploying Semantic ID-based Generative Retrieval for Large-Scale Podcast Discovery at Spotify"
+  - title: "From Habits to Discovery: Deploying LLMs for Personalized Generative Recommendations at Spotify"
     authors: "Edoardo D'Amico, ..., Juan Elenter, ..., Paul N. Bennett"
-    venue: "Under Review"
-    paper_pdf: "https://arxiv.org/pdf/2603.17540"
+    venue: "Knowledge Discovery and Data Mining (KDD), 2026"
+    paper_pdf: "https://research.atspotify.com/publications/from-habits-to-discovery-deploying-llms-personalized-generative-recommendations-spotify"
     theory: n
     empirical: n
     philosphical: n
     industry: y
 
-  - title: "LoRanPAC: Low-rank Random Features and Pre-trained Models for Continual Learning"
+  - title: "Efficient Dataset Selection for Continual Adaptation of Generative Recommenders"
+    authors: "Cathy Jiao, Juan Elenter, Praveen Ravichandran, et al."
+    venue: "ICLR CAO Workshop (Oral), 2026"
+    paper_pdf: "https://arxiv.org/abs/2604.07739"
+
+  - title: "TSVD: Bridging Theory and Practice in Continual Learning with Pre-trained Models"
     authors: "Liangzu Peng, Juan Elenter, Joshua Agterberg, Alejandro Ribeiro, René Vidal"
     venue: "International Conference on Learning Representations (ICLR), 2025"
-    paper_pdf: "https://arxiv.org/abs/2410.00645"
+    paper_pdf: "https://proceedings.iclr.cc/paper_files/paper/2025/hash/e0e0add93c95b5f81db075472c5cbbd9-Abstract-Conference.html"
     theory: n
     empirical: y
     philosphical: n 
@@ -66,5 +71,4 @@ papers:
     empirical: n
     philosphical: n
     
-
 
