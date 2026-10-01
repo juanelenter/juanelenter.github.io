@@ -6,6 +6,19 @@ h4 {
   margin-top: 60px;
   margin-bottom: 60px; 
   text-align: left; }
+.profile-photo {
+  display: block;
+  width: 100%;
+  max-width: 190px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  object-position: center 40%;
+  border-radius: 16px; }
+.main-description {
+  text-align: right; }
+.contact-email-icon {
+  color: inherit;
+  text-decoration: none; }
 .main-description h1 {
   margin-bottom: 0px; }
 .main-description p {
@@ -75,6 +88,22 @@ h4 {
 @media (min-width: 550px) {
   .header {
     margin-top: 5rem; }
+  .header .row {
+    display: flex;
+    align-items: center; }
+}
+
+@media (max-width: 549px) {
+  .header {
+    margin: 3rem 0;
+    text-align: center; }
+  .profile-photo {
+    width: 140px;
+    margin: 0 auto 2rem; }
+  .main-description {
+    text-align: center; }
+  .docs-section {
+    padding: 2.5rem 0; }
 }
 
 /* Larger than tablet */
